@@ -15,13 +15,22 @@
 		E05EEA011897DAC500366913 /* MHJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E05EEA001897DAC500366913 /* MHJAppDelegate.m */; };
 		E05EEA041897DAC500366913 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05EEA021897DAC500366913 /* Main_iPhone.storyboard */; };
 		E05EEA071897DAC500366913 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05EEA051897DAC500366913 /* Main_iPad.storyboard */; };
-		E05EEA0A1897DAC500366913 /* MHJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E05EEA091897DAC500366913 /* MHJViewController.m */; };
-		E05EEA0C1897DAC500366913 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E05EEA0B1897DAC500366913 /* Images.xcassets */; };
 		E05EEA131897DAC500366913 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05EEA121897DAC500366913 /* XCTest.framework */; };
 		E05EEA141897DAC500366913 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05EE9F01897DAC500366913 /* Foundation.framework */; };
 		E05EEA151897DAC500366913 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05EE9F41897DAC500366913 /* UIKit.framework */; };
 		E05EEA1D1897DAC600366913 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E05EEA1B1897DAC600366913 /* InfoPlist.strings */; };
 		E05EEA1F1897DAC600366913 /* FindMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E05EEA1E1897DAC600366913 /* FindMeTests.m */; };
+		E05EEA2D1897DD2F00366913 /* MHJBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = E05EEA2C1897DD2F00366913 /* MHJBeacon.m */; };
+		E05EEA311897E16400366913 /* MHJBeaconFinderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E05EEA301897E16400366913 /* MHJBeaconFinderVC.m */; };
+		E05EEA331897E1AA00366913 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05EEA321897E1AA00366913 /* CoreLocation.framework */; };
+		E0BE076618982167004D7335 /* MHJRobberVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BE076518982167004D7335 /* MHJRobberVC.m */; };
+		E0BE07681898240C004D7335 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BE07671898240C004D7335 /* CoreBluetooth.framework */; };
+		E0BE076B189840EF004D7335 /* iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = E0BE076A189840EF004D7335 /* iPhone.png */; };
+		E0BE076D189856AE004D7335 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0BE076C189856AE004D7335 /* Media.xcassets */; };
+		E0BE076F1898581A004D7335 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0BE076E1898581A004D7335 /* Default-568h@2x.png */; };
+		E0D266171897FA7300953CC5 /* MHJCopRadarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D266161897FA7300953CC5 /* MHJCopRadarVC.m */; };
+		E0D2661B1897FAC900953CC5 /* MHJBeaconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D2661A1897FAC900953CC5 /* MHJBeaconCell.m */; };
+		E0D2661F1897FEEB00953CC5 /* MHJMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D2661E1897FEEB00953CC5 /* MHJMainVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +56,28 @@
 		E05EEA001897DAC500366913 /* MHJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHJAppDelegate.m; sourceTree = "<group>"; };
 		E05EEA031897DAC500366913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		E05EEA061897DAC500366913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		E05EEA081897DAC500366913 /* MHJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHJViewController.h; sourceTree = "<group>"; };
-		E05EEA091897DAC500366913 /* MHJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHJViewController.m; sourceTree = "<group>"; };
-		E05EEA0B1897DAC500366913 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E05EEA111897DAC500366913 /* FindMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05EEA121897DAC500366913 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E05EEA1A1897DAC600366913 /* FindMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FindMeTests-Info.plist"; sourceTree = "<group>"; };
 		E05EEA1C1897DAC600366913 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E05EEA1E1897DAC600366913 /* FindMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindMeTests.m; sourceTree = "<group>"; };
+		E05EEA2B1897DD2F00366913 /* MHJBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHJBeacon.h; path = Model/MHJBeacon.h; sourceTree = "<group>"; };
+		E05EEA2C1897DD2F00366913 /* MHJBeacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHJBeacon.m; path = Model/MHJBeacon.m; sourceTree = "<group>"; };
+		E05EEA2F1897E16400366913 /* MHJBeaconFinderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHJBeaconFinderVC.h; path = Controller/MHJBeaconFinderVC.h; sourceTree = "<group>"; };
+		E05EEA301897E16400366913 /* MHJBeaconFinderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHJBeaconFinderVC.m; path = Controller/MHJBeaconFinderVC.m; sourceTree = "<group>"; };
+		E05EEA321897E1AA00366913 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E0BE076418982167004D7335 /* MHJRobberVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHJRobberVC.h; path = Controller/MHJRobberVC.h; sourceTree = "<group>"; };
+		E0BE076518982167004D7335 /* MHJRobberVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHJRobberVC.m; path = Controller/MHJRobberVC.m; sourceTree = "<group>"; };
+		E0BE07671898240C004D7335 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		E0BE076A189840EF004D7335 /* iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone.png; sourceTree = "<group>"; };
+		E0BE076C189856AE004D7335 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		E0BE076E1898581A004D7335 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		E0D266151897FA7300953CC5 /* MHJCopRadarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHJCopRadarVC.h; path = Controller/MHJCopRadarVC.h; sourceTree = "<group>"; };
+		E0D266161897FA7300953CC5 /* MHJCopRadarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHJCopRadarVC.m; path = Controller/MHJCopRadarVC.m; sourceTree = "<group>"; };
+		E0D266191897FAC900953CC5 /* MHJBeaconCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHJBeaconCell.h; path = View/MHJBeaconCell.h; sourceTree = "<group>"; };
+		E0D2661A1897FAC900953CC5 /* MHJBeaconCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHJBeaconCell.m; path = View/MHJBeaconCell.m; sourceTree = "<group>"; };
+		E0D2661D1897FEEB00953CC5 /* MHJMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHJMainVC.h; path = Controller/MHJMainVC.h; sourceTree = "<group>"; };
+		E0D2661E1897FEEB00953CC5 /* MHJMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHJMainVC.m; path = Controller/MHJMainVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0BE07681898240C004D7335 /* CoreBluetooth.framework in Frameworks */,
+				E05EEA331897E1AA00366913 /* CoreLocation.framework in Frameworks */,
 				E05EE9F31897DAC500366913 /* CoreGraphics.framework in Frameworks */,
 				E05EE9F51897DAC500366913 /* UIKit.framework in Frameworks */,
 				E05EE9F11897DAC500366913 /* Foundation.framework in Frameworks */,
@@ -103,6 +128,8 @@
 		E05EE9EF1897DAC500366913 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E0BE07671898240C004D7335 /* CoreBluetooth.framework */,
+				E05EEA321897E1AA00366913 /* CoreLocation.framework */,
 				E05EE9F01897DAC500366913 /* Foundation.framework */,
 				E05EE9F21897DAC500366913 /* CoreGraphics.framework */,
 				E05EE9F41897DAC500366913 /* UIKit.framework */,
@@ -114,13 +141,10 @@
 		E05EE9F61897DAC500366913 /* FindMe */ = {
 			isa = PBXGroup;
 			children = (
-				E05EE9FF1897DAC500366913 /* MHJAppDelegate.h */,
-				E05EEA001897DAC500366913 /* MHJAppDelegate.m */,
-				E05EEA021897DAC500366913 /* Main_iPhone.storyboard */,
-				E05EEA051897DAC500366913 /* Main_iPad.storyboard */,
-				E05EEA081897DAC500366913 /* MHJViewController.h */,
-				E05EEA091897DAC500366913 /* MHJViewController.m */,
-				E05EEA0B1897DAC500366913 /* Images.xcassets */,
+				E05EEA281897DB0C00366913 /* Model */,
+				E05EEA291897DB1300366913 /* Controller */,
+				E05EEA2A1897DB2300366913 /* View */,
+				E05EEA2E1897DFEC00366913 /* App */,
 				E05EE9F71897DAC500366913 /* Supporting Files */,
 			);
 			path = FindMe;
@@ -129,6 +153,8 @@
 		E05EE9F71897DAC500366913 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E0BE076E1898581A004D7335 /* Default-568h@2x.png */,
+				E0BE0769189840DE004D7335 /* Images */,
 				E05EE9F81897DAC500366913 /* FindMe-Info.plist */,
 				E05EE9F91897DAC500366913 /* InfoPlist.strings */,
 				E05EE9FC1897DAC500366913 /* main.m */,
@@ -153,6 +179,91 @@
 				E05EEA1B1897DAC600366913 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E05EEA281897DB0C00366913 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E05EEA2B1897DD2F00366913 /* MHJBeacon.h */,
+				E05EEA2C1897DD2F00366913 /* MHJBeacon.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E05EEA291897DB1300366913 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0D266131897F9F800953CC5 /* Cop */,
+				E0D266141897FA0200953CC5 /* Robber */,
+				E0D2661C1897FEB900953CC5 /* Beacons */,
+				E0D2661D1897FEEB00953CC5 /* MHJMainVC.h */,
+				E0D2661E1897FEEB00953CC5 /* MHJMainVC.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E05EEA2A1897DB2300366913 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0D266181897FA8B00953CC5 /* Cells */,
+				E05EEA021897DAC500366913 /* Main_iPhone.storyboard */,
+				E05EEA051897DAC500366913 /* Main_iPad.storyboard */,
+				E0BE076C189856AE004D7335 /* Media.xcassets */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E05EEA2E1897DFEC00366913 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E05EE9FF1897DAC500366913 /* MHJAppDelegate.h */,
+				E05EEA001897DAC500366913 /* MHJAppDelegate.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		E0BE0769189840DE004D7335 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E0BE076A189840EF004D7335 /* iPhone.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		E0D266131897F9F800953CC5 /* Cop */ = {
+			isa = PBXGroup;
+			children = (
+				E0D266151897FA7300953CC5 /* MHJCopRadarVC.h */,
+				E0D266161897FA7300953CC5 /* MHJCopRadarVC.m */,
+			);
+			name = Cop;
+			sourceTree = "<group>";
+		};
+		E0D266141897FA0200953CC5 /* Robber */ = {
+			isa = PBXGroup;
+			children = (
+				E0BE076418982167004D7335 /* MHJRobberVC.h */,
+				E0BE076518982167004D7335 /* MHJRobberVC.m */,
+			);
+			name = Robber;
+			sourceTree = "<group>";
+		};
+		E0D266181897FA8B00953CC5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E0D266191897FAC900953CC5 /* MHJBeaconCell.h */,
+				E0D2661A1897FAC900953CC5 /* MHJBeaconCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		E0D2661C1897FEB900953CC5 /* Beacons */ = {
+			isa = PBXGroup;
+			children = (
+				E05EEA2F1897E16400366913 /* MHJBeaconFinderVC.h */,
+				E05EEA301897E16400366913 /* MHJBeaconFinderVC.m */,
+			);
+			name = Beacons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,9 +344,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E05EEA071897DAC500366913 /* Main_iPad.storyboard in Resources */,
-				E05EEA0C1897DAC500366913 /* Images.xcassets in Resources */,
 				E05EEA041897DAC500366913 /* Main_iPhone.storyboard in Resources */,
 				E05EE9FB1897DAC500366913 /* InfoPlist.strings in Resources */,
+				E0BE076D189856AE004D7335 /* Media.xcassets in Resources */,
+				E0BE076B189840EF004D7335 /* iPhone.png in Resources */,
+				E0BE076F1898581A004D7335 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +368,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E05EEA011897DAC500366913 /* MHJAppDelegate.m in Sources */,
-				E05EEA0A1897DAC500366913 /* MHJViewController.m in Sources */,
+				E0D266171897FA7300953CC5 /* MHJCopRadarVC.m in Sources */,
+				E0D2661F1897FEEB00953CC5 /* MHJMainVC.m in Sources */,
+				E05EEA2D1897DD2F00366913 /* MHJBeacon.m in Sources */,
+				E0BE076618982167004D7335 /* MHJRobberVC.m in Sources */,
+				E0D2661B1897FAC900953CC5 /* MHJBeaconCell.m in Sources */,
+				E05EEA311897E16400366913 /* MHJBeaconFinderVC.m in Sources */,
 				E05EE9FD1897DAC500366913 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +593,7 @@
 				E05EEA241897DAC600366913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E05EEA251897DAC600366913 /* Build configuration list for PBXNativeTarget "FindMeTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +602,7 @@
 				E05EEA271897DAC600366913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
