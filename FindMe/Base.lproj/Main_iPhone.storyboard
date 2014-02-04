@@ -17,16 +17,16 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find Me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJr-Xu-SOb">
-                                <rect key="frame" x="20" y="87" width="280" height="42"/>
+                                <rect key="frame" x="20" y="81" width="280" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="36"/>
                                 <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Na4-pE-FdF">
-                                <rect key="frame" x="88" y="175" width="145" height="161"/>
+                                <rect key="frame" x="88" y="212" width="144" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Cop" image="radar.png">
+                                <state key="normal" image="radar.png">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -35,11 +35,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mro-pR-6hR">
-                                <rect key="frame" x="88" y="329" width="144" height="239"/>
+                                <rect key="frame" x="83" y="364" width="144" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="239" id="I2a-Ed-yJ0"/>
-                                </constraints>
                                 <state key="normal" image="bag.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -48,11 +45,8 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Make sure Bluetooth is ON before running" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BUD-G8-sYS">
-                                <rect key="frame" x="38" y="137" width="245" height="30"/>
+                                <rect key="frame" x="38" y="131" width="245" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="iL1-dO-xYf"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -60,17 +54,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="FJr-Xu-SOb" firstAttribute="top" secondItem="PY2-16-D1s" secondAttribute="bottom" constant="23" id="0A4-vW-X6N"/>
-                            <constraint firstItem="mro-pR-6hR" firstAttribute="leading" secondItem="Na4-pE-FdF" secondAttribute="leading" id="Jpa-Ga-w8h"/>
-                            <constraint firstItem="BUD-G8-sYS" firstAttribute="top" secondItem="FJr-Xu-SOb" secondAttribute="bottom" constant="8" symbolic="YES" id="RRz-bn-tC4"/>
-                            <constraint firstItem="Na4-pE-FdF" firstAttribute="top" secondItem="BUD-G8-sYS" secondAttribute="bottom" constant="8" symbolic="YES" id="aCT-8l-L9d"/>
-                            <constraint firstAttribute="bottom" secondItem="mro-pR-6hR" secondAttribute="bottom" id="iOz-Af-FSN"/>
-                            <constraint firstItem="olf-qk-9hw" firstAttribute="top" secondItem="Na4-pE-FdF" secondAttribute="bottom" constant="232" id="lXh-EL-FeP"/>
-                            <constraint firstItem="Na4-pE-FdF" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="88" id="oUa-dL-bKF"/>
-                            <constraint firstAttribute="trailing" secondItem="FJr-Xu-SOb" secondAttribute="trailing" constant="20" symbolic="YES" id="qYq-nG-7X1"/>
-                            <constraint firstItem="Na4-pE-FdF" firstAttribute="centerX" secondItem="BUD-G8-sYS" secondAttribute="centerX" id="w1n-xr-mFC"/>
-                            <constraint firstItem="FJr-Xu-SOb" firstAttribute="centerX" secondItem="BUD-G8-sYS" secondAttribute="centerX" id="wsH-N6-LTI"/>
-                            <constraint firstItem="FJr-Xu-SOb" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" symbolic="YES" id="xPn-W8-1ts"/>
+                            <constraint firstItem="BUD-G8-sYS" firstAttribute="centerX" secondItem="Na4-pE-FdF" secondAttribute="centerX" id="BS0-Me-Gv1"/>
+                            <constraint firstItem="mro-pR-6hR" firstAttribute="top" secondItem="Na4-pE-FdF" secondAttribute="bottom" constant="8" symbolic="YES" id="Ell-oq-dS3"/>
+                            <constraint firstItem="FJr-Xu-SOb" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" symbolic="YES" id="JWz-sw-FFO"/>
+                            <constraint firstItem="Na4-pE-FdF" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="NrR-7z-1zC"/>
+                            <constraint firstItem="mro-pR-6hR" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="83" id="V3n-ir-q8C"/>
+                            <constraint firstItem="BUD-G8-sYS" firstAttribute="centerX" secondItem="FJr-Xu-SOb" secondAttribute="centerX" id="fdA-nu-OLp"/>
+                            <constraint firstAttribute="trailing" secondItem="FJr-Xu-SOb" secondAttribute="trailing" constant="20" symbolic="YES" id="pXt-ny-uCP"/>
+                            <constraint firstItem="BUD-G8-sYS" firstAttribute="top" secondItem="FJr-Xu-SOb" secondAttribute="bottom" constant="8" symbolic="YES" id="sDf-Z3-hx5"/>
+                            <constraint firstItem="FJr-Xu-SOb" firstAttribute="top" secondItem="PY2-16-D1s" secondAttribute="bottom" constant="17" id="w3V-3N-96m"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Choose your role" id="u7T-tJ-Wys"/>
