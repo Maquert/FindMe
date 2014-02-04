@@ -14,3 +14,5 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+#define iBeaconsUUID @"E923B2CE-DE5B-4CCD-AF7E-14F5A70462FB"

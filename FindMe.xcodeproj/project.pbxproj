@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E05620CF18A15BAC008C94B0 /* radar.png in Resources */ = {isa = PBXBuildFile; fileRef = E05620CD18A15BAC008C94B0 /* radar.png */; };
+		E05620D018A15BAC008C94B0 /* bag.png in Resources */ = {isa = PBXBuildFile; fileRef = E05620CE18A15BAC008C94B0 /* bag.png */; };
+		E05620D318A15D50008C94B0 /* splash35.png in Resources */ = {isa = PBXBuildFile; fileRef = E05620D118A15D50008C94B0 /* splash35.png */; };
+		E05620D618A15DC9008C94B0 /* splash4.png in Resources */ = {isa = PBXBuildFile; fileRef = E05620D518A15DC9008C94B0 /* splash4.png */; };
 		E05EE9F11897DAC500366913 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05EE9F01897DAC500366913 /* Foundation.framework */; };
 		E05EE9F31897DAC500366913 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05EE9F21897DAC500366913 /* CoreGraphics.framework */; };
 		E05EE9F51897DAC500366913 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05EE9F41897DAC500366913 /* UIKit.framework */; };
@@ -28,6 +32,9 @@
 		E0BE076B189840EF004D7335 /* iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = E0BE076A189840EF004D7335 /* iPhone.png */; };
 		E0BE076D189856AE004D7335 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0BE076C189856AE004D7335 /* Media.xcassets */; };
 		E0BE076F1898581A004D7335 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0BE076E1898581A004D7335 /* Default-568h@2x.png */; };
+		E0CEE726189FFC2100F430FD /* cop.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CEE722189FFC2100F430FD /* cop.png */; };
+		E0CEE727189FFC2100F430FD /* bag 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CEE723189FFC2100F430FD /* bag 1.png */; };
+		E0CEE728189FFC2100F430FD /* cop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CEE724189FFC2100F430FD /* cop@2x.png */; };
 		E0D266171897FA7300953CC5 /* MHJCopRadarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D266161897FA7300953CC5 /* MHJCopRadarVC.m */; };
 		E0D2661B1897FAC900953CC5 /* MHJBeaconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D2661A1897FAC900953CC5 /* MHJBeaconCell.m */; };
 		E0D2661F1897FEEB00953CC5 /* MHJMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D2661E1897FEEB00953CC5 /* MHJMainVC.m */; };
@@ -44,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E05620CD18A15BAC008C94B0 /* radar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radar.png; sourceTree = "<group>"; };
+		E05620CE18A15BAC008C94B0 /* bag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bag.png; sourceTree = "<group>"; };
+		E05620D118A15D50008C94B0 /* splash35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash35.png; sourceTree = "<group>"; };
+		E05620D518A15DC9008C94B0 /* splash4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash4.png; sourceTree = "<group>"; };
 		E05EE9ED1897DAC500366913 /* FindMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05EE9F01897DAC500366913 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E05EE9F21897DAC500366913 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -72,6 +83,9 @@
 		E0BE076A189840EF004D7335 /* iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone.png; sourceTree = "<group>"; };
 		E0BE076C189856AE004D7335 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		E0BE076E1898581A004D7335 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		E0CEE722189FFC2100F430FD /* cop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cop.png; sourceTree = "<group>"; };
+		E0CEE723189FFC2100F430FD /* bag 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bag 1.png"; sourceTree = "<group>"; };
+		E0CEE724189FFC2100F430FD /* cop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cop@2x.png"; sourceTree = "<group>"; };
 		E0D266151897FA7300953CC5 /* MHJCopRadarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHJCopRadarVC.h; path = Controller/MHJCopRadarVC.h; sourceTree = "<group>"; };
 		E0D266161897FA7300953CC5 /* MHJCopRadarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHJCopRadarVC.m; path = Controller/MHJCopRadarVC.m; sourceTree = "<group>"; };
 		E0D266191897FAC900953CC5 /* MHJBeaconCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHJBeaconCell.h; path = View/MHJBeaconCell.h; sourceTree = "<group>"; };
@@ -153,7 +167,10 @@
 		E05EE9F71897DAC500366913 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E0BE076C189856AE004D7335 /* Media.xcassets */,
 				E0BE076E1898581A004D7335 /* Default-568h@2x.png */,
+				E05620D118A15D50008C94B0 /* splash35.png */,
+				E05620D518A15DC9008C94B0 /* splash4.png */,
 				E0BE0769189840DE004D7335 /* Images */,
 				E05EE9F81897DAC500366913 /* FindMe-Info.plist */,
 				E05EE9F91897DAC500366913 /* InfoPlist.strings */,
@@ -208,7 +225,6 @@
 				E0D266181897FA8B00953CC5 /* Cells */,
 				E05EEA021897DAC500366913 /* Main_iPhone.storyboard */,
 				E05EEA051897DAC500366913 /* Main_iPad.storyboard */,
-				E0BE076C189856AE004D7335 /* Media.xcassets */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -225,6 +241,11 @@
 		E0BE0769189840DE004D7335 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E05620CD18A15BAC008C94B0 /* radar.png */,
+				E05620CE18A15BAC008C94B0 /* bag.png */,
+				E0CEE722189FFC2100F430FD /* cop.png */,
+				E0CEE723189FFC2100F430FD /* bag 1.png */,
+				E0CEE724189FFC2100F430FD /* cop@2x.png */,
 				E0BE076A189840EF004D7335 /* iPhone.png */,
 			);
 			name = Images;
@@ -343,12 +364,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E05620D018A15BAC008C94B0 /* bag.png in Resources */,
+				E05620CF18A15BAC008C94B0 /* radar.png in Resources */,
+				E0CEE727189FFC2100F430FD /* bag 1.png in Resources */,
 				E05EEA071897DAC500366913 /* Main_iPad.storyboard in Resources */,
 				E05EEA041897DAC500366913 /* Main_iPhone.storyboard in Resources */,
 				E05EE9FB1897DAC500366913 /* InfoPlist.strings in Resources */,
+				E05620D318A15D50008C94B0 /* splash35.png in Resources */,
+				E0CEE726189FFC2100F430FD /* cop.png in Resources */,
 				E0BE076D189856AE004D7335 /* Media.xcassets in Resources */,
 				E0BE076B189840EF004D7335 /* iPhone.png in Resources */,
 				E0BE076F1898581A004D7335 /* Default-568h@2x.png in Resources */,
+				E05620D618A15DC9008C94B0 /* splash4.png in Resources */,
+				E0CEE728189FFC2100F430FD /* cop@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

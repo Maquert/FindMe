@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--MainVC-->
+        <!--MainVC - Choose your role-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="MHJMainVC" sceneMemberID="viewController">
@@ -23,45 +23,57 @@
                                 <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Na4-pE-FdF">
-                                <rect key="frame" x="60" y="137" width="201" height="200"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Na4-pE-FdF">
+                                <rect key="frame" x="88" y="175" width="145" height="161"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="YHc-ih-lz2"/>
-                                </constraints>
-                                <state key="normal" title="Cop">
+                                <state key="normal" title="Cop" image="radar.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="GiN-ML-APx" kind="push" id="acB-DK-U6j"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mro-pR-6hR">
-                                <rect key="frame" x="60" y="368" width="201" height="200"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mro-pR-6hR">
+                                <rect key="frame" x="88" y="329" width="144" height="239"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Robber">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="239" id="I2a-Ed-yJ0"/>
+                                </constraints>
+                                <state key="normal" image="bag.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="jKk-oJ-cxy" kind="push" id="pqt-z5-13t"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Make sure Bluetooth is ON before running" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BUD-G8-sYS">
+                                <rect key="frame" x="38" y="137" width="245" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="iL1-dO-xYf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="FJr-Xu-SOb" firstAttribute="top" secondItem="PY2-16-D1s" secondAttribute="bottom" constant="23" id="4Nh-4p-blA"/>
-                            <constraint firstItem="mro-pR-6hR" firstAttribute="leading" secondItem="Na4-pE-FdF" secondAttribute="leading" id="CUO-qr-17B"/>
-                            <constraint firstItem="FJr-Xu-SOb" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" symbolic="YES" id="XHN-Wg-6CD"/>
-                            <constraint firstItem="Na4-pE-FdF" firstAttribute="trailing" secondItem="mro-pR-6hR" secondAttribute="trailing" id="YIm-nw-bRd"/>
-                            <constraint firstItem="Na4-pE-FdF" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="60" id="aGS-pW-Fdp"/>
-                            <constraint firstItem="mro-pR-6hR" firstAttribute="top" secondItem="Na4-pE-FdF" secondAttribute="bottom" constant="31" id="cHk-4j-7FB"/>
-                            <constraint firstAttribute="trailing" secondItem="FJr-Xu-SOb" secondAttribute="trailing" constant="20" symbolic="YES" id="cKK-Nq-g1O"/>
-                            <constraint firstAttribute="bottom" secondItem="mro-pR-6hR" secondAttribute="bottom" id="egD-8H-9SW"/>
-                            <constraint firstItem="Na4-pE-FdF" firstAttribute="centerX" secondItem="FJr-Xu-SOb" secondAttribute="centerX" id="esY-0m-i7h"/>
-                            <constraint firstItem="Na4-pE-FdF" firstAttribute="top" secondItem="FJr-Xu-SOb" secondAttribute="bottom" constant="8" symbolic="YES" id="fAs-V2-r7e"/>
+                            <constraint firstItem="FJr-Xu-SOb" firstAttribute="top" secondItem="PY2-16-D1s" secondAttribute="bottom" constant="23" id="0A4-vW-X6N"/>
+                            <constraint firstItem="mro-pR-6hR" firstAttribute="leading" secondItem="Na4-pE-FdF" secondAttribute="leading" id="Jpa-Ga-w8h"/>
+                            <constraint firstItem="BUD-G8-sYS" firstAttribute="top" secondItem="FJr-Xu-SOb" secondAttribute="bottom" constant="8" symbolic="YES" id="RRz-bn-tC4"/>
+                            <constraint firstItem="Na4-pE-FdF" firstAttribute="top" secondItem="BUD-G8-sYS" secondAttribute="bottom" constant="8" symbolic="YES" id="aCT-8l-L9d"/>
+                            <constraint firstAttribute="bottom" secondItem="mro-pR-6hR" secondAttribute="bottom" id="iOz-Af-FSN"/>
+                            <constraint firstItem="olf-qk-9hw" firstAttribute="top" secondItem="Na4-pE-FdF" secondAttribute="bottom" constant="232" id="lXh-EL-FeP"/>
+                            <constraint firstItem="Na4-pE-FdF" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="88" id="oUa-dL-bKF"/>
+                            <constraint firstAttribute="trailing" secondItem="FJr-Xu-SOb" secondAttribute="trailing" constant="20" symbolic="YES" id="qYq-nG-7X1"/>
+                            <constraint firstItem="Na4-pE-FdF" firstAttribute="centerX" secondItem="BUD-G8-sYS" secondAttribute="centerX" id="w1n-xr-mFC"/>
+                            <constraint firstItem="FJr-Xu-SOb" firstAttribute="centerX" secondItem="BUD-G8-sYS" secondAttribute="centerX" id="wsH-N6-LTI"/>
+                            <constraint firstItem="FJr-Xu-SOb" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" symbolic="YES" id="xPn-W8-1ts"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="u7T-tJ-Wys"/>
+                    <navigationItem key="navigationItem" title="Choose your role" id="u7T-tJ-Wys"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -85,13 +97,13 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVS-AX-Ca0">
-                                            <rect key="frame" x="20" y="11" width="146" height="21"/>
+                                            <rect key="frame" x="20" y="11" width="280" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Proximity" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DW6-b9-mYK">
-                                            <rect key="frame" x="20" y="43" width="146" height="21"/>
+                                            <rect key="frame" x="20" y="43" width="280" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -111,7 +123,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Radar" id="CXu-PR-6ez">
-                        <barButtonItem key="rightBarButtonItem" title="Start" id="bPW-l2-Kcc">
+                        <barButtonItem key="rightBarButtonItem" title="Power Up" id="bPW-l2-Kcc">
                             <connections>
                                 <action selector="startStopSearching:" destination="GiN-ML-APx" id="Zeu-VH-OY9"/>
                             </connections>
@@ -123,7 +135,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oKB-Bo-fo5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1335" y="-404"/>
+            <point key="canvasLocation" x="1335" y="-328"/>
         </scene>
         <!--RobberVC - Stolen iBeacon-->
         <scene sceneID="Evi-6D-Eyd">
@@ -144,6 +156,13 @@
                                 <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Don´t Lock your iPhone" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HgO-pu-hrc">
+                                <rect key="frame" x="53" y="269" width="214" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -154,7 +173,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XGb-p2-9jE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1335" y="479"/>
+            <point key="canvasLocation" x="1335" y="405"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="rQ1-ZC-ygD">
@@ -175,6 +194,10 @@
             <point key="canvasLocation" x="261" y="66"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bag.png" width="144" height="144"/>
+        <image name="radar.png" width="144" height="144"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
