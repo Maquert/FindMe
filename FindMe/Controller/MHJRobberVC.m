@@ -2,6 +2,8 @@
 //  MHJRobberVC.m
 //  FindMe
 //
+//  This class turns an valid iOS device into a searcheable iBeacon for our FindMe app
+//
 //  Created by Miguel Hernández Jaso on 28/01/14.
 //  Copyright (c) 2014 mhj. All rights reserved.
 //
@@ -11,11 +13,14 @@
 
 #import "MHJRobberVC.h"
 
+
 @interface MHJRobberVC () <CBPeripheralManagerDelegate>
 
 @property (strong, nonatomic) CBPeripheralManager *peripheralManager;
 
 @end
+
+
 
 @implementation MHJRobberVC
 

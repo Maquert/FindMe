@@ -2,6 +2,9 @@
 //  MHJBeaconFinderVC.m
 //  FindMe
 //
+//  Demo and template class
+//  Not funcional
+//
 //  Created by Miguel Hernández Jaso on 28/01/14.
 //  Copyright (c) 2014 mhj. All rights reserved.
 //
@@ -18,6 +21,11 @@
 
 static NSString *const beaconRegionIdentifier = @"com.aenia.DemoRegion";
 
+
+/*
+* This class is not intended for production, but as a template for common methods using iBeacons.
+* For a practical use, check 'Cop' and 'Robber' controllers instead
+*/
 
 #pragma mark - LifeCycle
 

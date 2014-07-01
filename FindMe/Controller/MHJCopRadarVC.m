@@ -131,18 +131,17 @@ static NSString * const beaconRegionIdentifier = @"com.aenia.DemoRegion";
 -(MHJBeaconCell *) configureCell:(MHJBeaconCell *) beaconCell
                       withBeacon:(CLBeacon *) beacon
 {
-    
     beaconCell.nameLabel.text = @"iPhone";
-    beaconCell.proximityLabel.text = [self proximityTextWithBeacon:beacon];
-    beaconCell.accuaracyLabel.text = [NSString stringWithFormat:@"Accuracy: %0.2f Signal Strength:%ld", beacon.accuracy, (long)beacon.rssi];
+    beaconCell.proximityLabel.text = [self proximityText:beacon.proximity];
+    beaconCell.accuaracyLabel.text = [self accuaracyText:beacon.accuracy withRssi:beacon.rssi];
     
     return beaconCell;
 }
 
--(NSString *) proximityTextWithBeacon:(CLBeacon *) beacon
+-(NSString *) proximityText:(CLProximity) proximity
 {
     NSString *proximityText = @"";
-    switch (beacon.proximity) {
+    switch (proximity) {
         case 1:
             proximityText = @"Got it!";
             break;
@@ -159,6 +158,17 @@ static NSString * const beaconRegionIdentifier = @"com.aenia.DemoRegion";
 
     return proximityText;
 }
+
+-(NSString *) accuaracyText:(CLLocationAccuracy) accuaracy
+                   withRssi:(NSInteger) strength
+{
+    NSString *accuaracyText = [NSString stringWithFormat:@"Accuracy: %0.2f", accuaracy];
+    NSString *rssiText = [NSString stringWithFormat:@" Signal Strength:%ld", (long)strength];
+    
+    return [NSString stringWithFormat:@"%@ %@", accuaracyText, rssiText];
+}
+
+
 
 
 
