@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="qS0-bm-A2F">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="14A261i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="qS0-bm-A2F">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
         <!--MainVC - Choose your role-->
@@ -16,61 +16,78 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find Me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJr-Xu-SOb">
-                                <rect key="frame" x="20" y="81" width="280" height="42"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qS6-n0-nlp">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="36"/>
-                                <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Na4-pE-FdF">
-                                <rect key="frame" x="88" y="212" width="144" height="144"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="radar.png">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="GiN-ML-APx" kind="push" id="acB-DK-U6j"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mro-pR-6hR">
-                                <rect key="frame" x="83" y="364" width="144" height="144"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="bag.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="jKk-oJ-cxy" kind="push" id="pqt-z5-13t"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Make sure Bluetooth is ON before running" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BUD-G8-sYS">
-                                <rect key="frame" x="38" y="131" width="245" height="17"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
-                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find Me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJr-Xu-SOb">
+                                        <rect key="frame" x="20" y="80" width="280" height="42"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="36"/>
+                                        <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Make sure Bluetooth is ON before running" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BUD-G8-sYS">
+                                        <rect key="frame" x="20" y="139" width="280" height="17"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mro-pR-6hR">
+                                        <rect key="frame" x="88" y="351" width="144" height="144"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="bag.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="jKk-oJ-cxy" kind="push" id="pqt-z5-13t"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Na4-pE-FdF">
+                                        <rect key="frame" x="88" y="188" width="144" height="144"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="radar.png">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="GiN-ML-APx" kind="push" id="acB-DK-U6j"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="FJr-Xu-SOb" firstAttribute="top" secondItem="qS6-n0-nlp" secondAttribute="top" constant="80" id="3lQ-dV-dpc"/>
+                                    <constraint firstItem="BUD-G8-sYS" firstAttribute="trailing" secondItem="FJr-Xu-SOb" secondAttribute="trailing" id="CtF-df-ern"/>
+                                    <constraint firstAttribute="trailing" secondItem="FJr-Xu-SOb" secondAttribute="trailing" constant="20" symbolic="YES" id="E1l-d8-14x"/>
+                                    <constraint firstItem="BUD-G8-sYS" firstAttribute="centerX" secondItem="Na4-pE-FdF" secondAttribute="centerX" id="LZ5-10-hJN"/>
+                                    <constraint firstItem="Na4-pE-FdF" firstAttribute="top" secondItem="BUD-G8-sYS" secondAttribute="bottom" constant="32" id="Zfe-FD-I03"/>
+                                    <constraint firstItem="mro-pR-6hR" firstAttribute="top" secondItem="Na4-pE-FdF" secondAttribute="bottom" constant="19" id="bLJ-BF-nWu"/>
+                                    <constraint firstAttribute="bottom" secondItem="mro-pR-6hR" secondAttribute="bottom" constant="105" id="bVW-3B-tVr"/>
+                                    <constraint firstItem="FJr-Xu-SOb" firstAttribute="leading" secondItem="qS6-n0-nlp" secondAttribute="leading" constant="20" symbolic="YES" id="eOM-jk-GKD"/>
+                                    <constraint firstItem="mro-pR-6hR" firstAttribute="leading" secondItem="Na4-pE-FdF" secondAttribute="leading" id="ei0-jg-jCg"/>
+                                    <constraint firstItem="BUD-G8-sYS" firstAttribute="top" secondItem="FJr-Xu-SOb" secondAttribute="bottom" constant="17" id="iqI-5L-KEo"/>
+                                    <constraint firstItem="BUD-G8-sYS" firstAttribute="centerX" secondItem="qS6-n0-nlp" secondAttribute="centerX" id="pBX-nS-L5e"/>
+                                    <constraint firstItem="BUD-G8-sYS" firstAttribute="leading" secondItem="FJr-Xu-SOb" secondAttribute="leading" id="v21-RD-6hG"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="BUD-G8-sYS" firstAttribute="centerX" secondItem="Na4-pE-FdF" secondAttribute="centerX" id="BS0-Me-Gv1"/>
-                            <constraint firstItem="mro-pR-6hR" firstAttribute="top" secondItem="Na4-pE-FdF" secondAttribute="bottom" constant="8" symbolic="YES" id="Ell-oq-dS3"/>
-                            <constraint firstItem="FJr-Xu-SOb" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" symbolic="YES" id="JWz-sw-FFO"/>
-                            <constraint firstItem="Na4-pE-FdF" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="NrR-7z-1zC"/>
-                            <constraint firstItem="mro-pR-6hR" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="83" id="V3n-ir-q8C"/>
-                            <constraint firstItem="BUD-G8-sYS" firstAttribute="centerX" secondItem="FJr-Xu-SOb" secondAttribute="centerX" id="fdA-nu-OLp"/>
-                            <constraint firstAttribute="trailing" secondItem="FJr-Xu-SOb" secondAttribute="trailing" constant="20" symbolic="YES" id="pXt-ny-uCP"/>
-                            <constraint firstItem="BUD-G8-sYS" firstAttribute="top" secondItem="FJr-Xu-SOb" secondAttribute="bottom" constant="8" symbolic="YES" id="sDf-Z3-hx5"/>
-                            <constraint firstItem="FJr-Xu-SOb" firstAttribute="top" secondItem="PY2-16-D1s" secondAttribute="bottom" constant="17" id="w3V-3N-96m"/>
+                            <constraint firstItem="qS6-n0-nlp" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="35e-5E-L0O"/>
+                            <constraint firstAttribute="trailing" secondItem="qS6-n0-nlp" secondAttribute="trailing" id="d79-c2-kX4"/>
+                            <constraint firstAttribute="bottom" secondItem="qS6-n0-nlp" secondAttribute="bottom" id="h5H-zN-aMF"/>
+                            <constraint firstItem="qS6-n0-nlp" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="x4k-gE-wkI"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Choose your role" id="u7T-tJ-Wys"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <size key="freeformSize" width="640" height="600"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="787" y="66"/>
+            <point key="canvasLocation" x="789" y="91"/>
         </scene>
         <!--Cop RadarVC - Radar-->
         <scene sceneID="MDV-Dv-e32">
